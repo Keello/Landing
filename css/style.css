@@ -1,0 +1,514 @@
+/*--------ШРИФТЫ-------------*/
+@font-face {
+	font-family: RalewayExBold;
+	src: url(../fonts/Raleway-ExtraBold.ttf); 
+}
+
+@font-face {
+	font-family: RalewayBold;
+	src: url(../fonts/Raleway-Bold.ttf); 
+}
+
+@font-face {
+	font-family: Raleway;
+	src: url(../fonts/Raleway-Light.ttf);
+}
+
+@font-face {
+	font-family: DroidItalic;
+	src: url(../fonts/DroidSerifItalic.ttf); 
+}
+
+/*--------СТИЛИ-------------*/
+button{
+	outline: none;
+}
+
+header{
+  line-height: 110px;
+  position: fixed;
+  z-index: 100;
+  top: 0;
+  left: 50%;
+  height: 85px;
+  transform: translateX(-50%);
+  border-radius: 0 0 10px 10px;
+  background: white;
+}
+
+
+#header_help{
+	background: white;
+	height: 110px;
+}
+
+header #logo{
+	font-size: 28pt;
+	line-height: 110px;
+	margin: 0;
+	font-family: RalewayExBold;
+}
+
+header .menu ul{
+	list-style: none;
+	line-height: 120px;
+	margin: 0;
+	padding: 0;
+	font-family: Raleway;
+}
+
+header .menu ul a{
+	display: inline-block;
+	text-decoration: none;
+	color:#757979;
+	font-size: 12pt;
+	margin-left: 20px;
+}
+
+header .menu ul a:hover{
+	color: #3f3f44;
+}
+
+header .contacts p{
+	display: inline-block;
+	margin: 0;
+	color: #3f3f44;
+	text-align: right;
+}
+
+.contacts .email{
+	font-size: 14pt;
+	font-family: Raleway;	
+}
+
+.contacts .phone{
+	font-size: 14pt;
+	font-family: Raleway;
+}
+
+.contacts i{
+	padding: 2px;
+	margin-left: 50px;
+}
+
+.contacts #iphone{
+	color:white;
+	background: #3f3f44;
+}
+.contacts #iletter{
+	background: white;
+	font-weight: bold;
+}
+
+
+/*--------------------------------------*/
+#download{
+	color:white;
+}
+
+#download .container-fluid{
+	background: url(../image/bg.png);
+	background-position: 50% 50%;
+	background-color: #0f68ae;
+	padding: 180px 0px;
+}
+
+#download #perfect{
+	margin: 2px;
+	font-size: 28pt;
+	font-family: RalewayBold;
+}
+
+#download #duis0{
+	margin: 2px;
+	font-size: 28pt;
+	font-family: Raleway;
+}
+
+#download p{
+	margin: 40px 0px 57px 0px;
+	font-size: 11pt;
+	color: #a8c5cf;
+	font-family: Raleway;
+}
+
+#download .btn_download{
+	color:#a8c5cf;
+	padding:15px 57px;
+	background: transparent;
+	border: solid #a8c5cf 3px;
+	border-radius: 50px;
+	font-size: 19pt;
+	text-transform: uppercase;
+	text-decoration: none;
+	font-family: RalewayBold;
+}
+
+#download .btn_download:hover{
+	color: white;
+	border: solid #fff 3px;
+}
+/*--------------------------------------------*/
+#feature{
+	color: #859BA3;
+	padding-top: 105px;
+	padding-bottom: 112px;
+}
+
+h1{
+	text-align: center;
+	color: #666c6c;
+	font-family: RalewayBold;
+}
+
+#feature .title, #gallery .title{
+	text-align: center;	
+	margin-top: 20px;
+	margin-bottom: 67px;
+	font-size: 12pt;
+	color: #859BA3;
+	font-family: Raleway;
+}
+
+#feature .list{
+	height: 400px;
+	line-height: 80px;
+	overflow: auto;
+	font-family: Raleway;
+}
+
+#feature .list ul{
+	list-style: none;
+	font-size: 16pt;
+	
+}
+
+#feature .list a{
+	color: #859BA3;
+	text-decoration: none;
+	cursor: pointer;
+}
+
+#feature .list li{
+	padding: 5% 0%;
+}
+
+#feature .list div{
+	display: inline-block;
+}
+
+#feature .list .div_icon{
+	width: 25%;
+}
+
+#feature .list a:hover{
+	color: #656b6b;
+}
+
+#feature .list a:hover i{
+	color: #87c98a;
+}
+
+#feature img{
+	margin:0% 0% 12% 30%;
+}
+
+#feature h4{
+	color: #666c6c;
+	font-size: 18pt;
+	font-family: RalewayBold;
+}
+
+#feature .text{	
+	font-size: 12pt;
+	font-family: Raleway;
+}
+
+/*---------Скролл---------------------------------*/
+
+#feature ::-webkit-scrollbar { 
+	width: 12px;
+}
+#feature ::-webkit-scrollbar-track-piece { 
+	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+}
+#feature ::-webkit-scrollbar-thumb { 
+	background-color: #87c98a; 
+}
+#feature ::-webkit-scrollbar-corner { background-color: #099;}}
+#feature ::-webkit-resizer { background-color: #666;}
+
+
+/*--------------------------------------------*/
+
+
+#more, #more2{
+	background: #f2f9fe;
+}
+
+#more .image, #more2 .image{
+	padding: 80px 0;
+}
+
+#more .text, #more2 .text{
+	padding-top: 160px;
+}
+
+#more #onec, #more2 #onec2{
+	color: #87c98a;
+	font-size: 30pt;
+	font-family: RalewayBold;
+}
+
+#more .hr, #more2 .hr{
+	border-bottom: solid #959b9b 2px;
+	width: 120px;
+	margin-top: 20px;
+}
+
+#more #duis, #more2 #duis2{
+	margin-top: 45px;
+	color: #959b9b;
+	font-size: 30pt;
+	font-family: Raleway;
+}
+
+#more p, #more2 p{
+	margin-top: 45px;
+	color:#959b9b;
+	font-size: 16pt;
+	font-family: Raleway;
+}
+
+#more .learn_more, #more2 .learn_more{
+	color:#666c6c;
+	padding:15px 65px;
+	background: transparent;
+	border: solid #959b9b 3px;
+	border-radius: 50px;
+	font-size: 19pt;
+	text-transform: uppercase;
+	text-decoration: none;
+	margin-top: 45px;
+	font-family: RalewayBold;
+}
+
+#more .learn_more:hover, #more2 .learn_more:hover{
+	color: #87c98a;
+	border: solid #87c98a 3px;	
+}
+/*--------------------------------------------*/
+
+
+#gallery {
+	padding-top: 90px;
+	padding-bottom: 130px;
+}
+
+#gallery .col-md-4{
+	margin-top: 20px;
+}
+
+#gallery .col-md-4 p{
+	color:#959b9b;
+	text-align: center;
+	font-size: 12pt;
+	margin: 40px 0px 0px 20px;
+	font-family: Raleway;
+}
+
+
+/*--------------------------------------------*/
+
+
+#feedback{
+	padding-bottom: 110px;
+}
+
+#feedback .col-md-12{
+	text-align: center;	
+}
+
+#feedback h1{
+	font-family: RalewayBold;
+}
+
+#feedback img{
+	margin: 40px auto;
+}
+
+#feedback .text{
+	font-size: 18pt;
+	color:#959b9b;
+	font-family: DroidItalic;
+}
+
+#feedback .name{
+	font-size: 18pt;
+	color: #87c98a;	
+	font-family: Raleway;
+}
+
+/*--------------------------------------------*/
+
+
+#subscribe{
+	background: #f3f5f5;
+	padding-top: 90px;
+	padding-bottom: 120px;
+}
+
+#subscribe .form_cont{
+	margin: 0 auto;
+	width: 60%;
+}
+
+#subscribe .form_cont input, #subscribe .form_cont button {
+	height: 55px;
+	border: solid #bbc3c2 2px;
+	border-radius: 30px;
+	margin-top: 50px;
+}
+
+#subscribe .form_cont input{
+	width: 99%;
+	padding-left: 35px;
+	outline: none;
+}
+
+#subscribe .submit_btn{
+	width: 23%;
+	margin-left: -23%;
+	color: white;
+	font-weight: bold;
+	font-size: 12pt;
+	text-transform: uppercase;
+	background: #87c98a;
+
+}
+
+#subscribe .submit_btn:hover{
+	color:#5d6461;
+}
+
+#subscribe h1{
+	color: #8c9494;
+}
+
+#subscribe i{
+	margin-right: 15px;
+	font-weight: bold;
+}
+
+
+/*--------------------------------------------*/
+
+
+footer {
+	padding: 75px 0px 55px 0px;
+	background: #2d312f;
+	color: #5d6461;
+}
+
+footer .row{
+	text-align: center;
+}
+
+
+footer .services a{
+	list-style: none;
+	display: inline-block;
+	color: #5d6461;
+	margin-left: 1%;
+	font-family: Raleway;
+	font-size: 13pt;
+	text-decoration: none;
+}
+
+footer .services{
+	margin-left: -2%;
+}
+
+footer #say{
+	font-family: Raleway;
+	font-size: 20pt;
+	margin-bottom: 35px;
+}
+
+footer .fa-stack-1x{
+	color: #2d312f;
+}
+
+footer .fa-stack{
+	font-size: 18pt;
+	margin-left: 10px;
+	margin-bottom: 70px;
+	color: #5d6461;
+}
+
+footer .fa-stack:hover, footer .services a:hover{
+	color: white;
+	text-decoration-line: underline;
+}
+
+/*-------------Bootstrap-------------------------*/
+
+.carousel-indicators{
+	margin-bottom: -60px;
+}
+
+.carousel-indicators li{
+	background:#959b9b;
+	margin-left:5px;
+}
+
+.carousel-indicators .active{
+	background: green;
+	margin-left:5px;
+}
+
+.carousel-control.left, .carousel-control.right{
+	background: none;
+}
+
+.carousel-control.left{
+	margin-left: -10%;
+}
+
+.carousel-control.right{
+	margin-right: -10%;
+}
+
+#gallery .glyphicon  {
+	color: black;
+	margin-top: -30%;
+}
+
+
+#toTop{
+    font-size: 60px;
+    line-height: 60px;
+
+    position: fixed;
+    right: 30px;
+    bottom: 30px;
+
+    display: block;
+
+    width: 70px;
+    height: 70px;
+
+    cursor: pointer;
+    text-align: center;
+
+    color: #595959;
+    border: 2px solid #ccc;
+    border-radius: 40px;
+}
+
+#toTop:hover{
+    background: #ddd;
+}
+
+
+/*--------АДАПТИВ-------------*/
